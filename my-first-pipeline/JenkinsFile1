@@ -1,0 +1,20 @@
+pipeline{
+    agent any
+    stages{
+        stage('Front-end'){
+            step{
+                echo 'Hello-World!'
+            }
+        }
+        stage('Database'){
+            step{
+                echo 'Working on Data-base'
+            }
+        }
+        stage('Backend'){
+            step{
+                echo 'Welcome to java backend'
+            }
+        }
+    }
+}
